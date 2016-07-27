@@ -38,7 +38,7 @@ header h1:hover {
     width: 31%;
 }
 
-.header-logo {
+img.header-logo {
     height: 5em;
     width: 5em;
 }
@@ -135,7 +135,7 @@ header a {
         font-size: 2em;
     }
 
-    .header-logo {
+    img.header-logo {
         height: 4em;
         width: 4em;
     }
