@@ -34,12 +34,14 @@ function lct_load_scripts() {
 	wp_enqueue_style( 'lct-base-style', get_stylesheet_uri(), array(), '1.0' );
 	wp_enqueue_style( 'main.css', get_template_directory_uri().'/main.css', false );
 	wp_enqueue_style( 'blog.css', get_template_directory_uri().'/blog.css', false );
+    wp_enqueue_style( 'interns.css', get_template_directory_uri().'/interns.css', false );
+    wp_enqueue_style( 'testimonies.css', get_template_directory_uri().'/testimonies.css', false );
 	wp_enqueue_style( 'single-post.css', get_template_directory_uri().'/single-post.css', false );
 	wp_enqueue_style( 'general.css', get_template_directory_uri().'/general.css', false );
 	wp_enqueue_style( 'donation.css', get_template_directory_uri().'/donation.css', false );
 	wp_enqueue_style( 'header.css', get_template_directory_uri().'/header.css', false );
 	wp_enqueue_style( 'footer.css', get_template_directory_uri().'/footer.css', false );
-	wp_enqueue_style( 'flag-icon.css', get_template_directory_uri().'/flag-icon.css', false );
+	wp_enqueue_style( 'flag-icon.min.css', get_template_directory_uri().'/css/flag-icon.min.css', false );
 	wp_enqueue_style( 'woocommercestyle.css', get_template_directory_uri().'/woocommercestyle.css', false );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'main.js', get_template_directory_uri().'/main.js', false);

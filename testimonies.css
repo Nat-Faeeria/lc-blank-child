@@ -1,0 +1,43 @@
+.testimonies-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.testimony-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.testimony-person {
+    flex: 1 29%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 1%;
+}
+
+.testimony-even .testimony-person {
+    order: 1;
+}
+
+.testimony-odd .testimony-person {
+    order: 3;
+}
+
+.testimony-person > img {
+    border-radius: 50%;
+}
+
+.testimony-container > p {
+    flex: 2 70%;
+    order: 2;
+}
