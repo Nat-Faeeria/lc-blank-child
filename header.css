@@ -1,0 +1,208 @@
+header {
+    background-color: rgba(43, 52, 54, 0.9);
+    color: white;
+    box-shadow: 0 3px 8px 2px rgba(0, 0, 0, 0.6);
+    height: 5em;
+    position: fixed;
+    top: 1;
+    left: 1;
+    z-index: 10;
+    width: 100%;
+}
+
+
+header a, header a:visited, header a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-top: 0.3em;
+    font-weight: bold;
+    margin-left: 0.4em;
+    -webkit-transition: font-size 0.5s;
+    -moz-transition: font-size 0.5s;
+    -ms-transition: font-size 0.5s;
+    -o-transition: font-size 0.5s;
+    transition: font-size 0.5s;
+}
+
+header h1:hover {
+    color: #31ccff;
+    font-size: 2.5em;
+}
+
+
+.header-logo-container {
+    width: 31%;
+}
+
+.header-logo {
+    height: 5em;
+    width: 5em;
+}
+
+.header-menu-container {
+    width: 69%;
+    text-align: right;
+}
+
+.header-menu-container ul {
+    list-style: none;
+}
+
+.header-menu-container li {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-menu-container ul li:hover {
+    background-color: rgb(70, 84, 86);
+}
+
+.header-menu-container ul li {
+    display: inline-block;
+}
+
+.header-menu-container ul li ul {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(43, 52, 54, 0.9);
+}
+
+.header-menu-container ul li:hover ul {
+    display: block;
+}
+
+.header-menu-container ul li ul li {
+    display: block;
+}
+
+.donate-link {
+    background-color: rgba(236,96,28,0.9);
+}
+
+.donate-link:hover {
+    background-color: rgb(255, 102, 28) !important;
+}
+
+.top-nav, header a {
+    display: flex;
+}
+
+header a {
+    padding: 1.15em 0.8em 1.15em 0.8em;
+}
+
+.header-logo-container a {
+    padding: 0;
+}
+
+#hidden-nav {
+    display: none;
+    width: 100%;
+    position: relative;
+}
+
+.toggle-btn {
+    display: none;
+    height: 3em;
+    width: 3em;
+    background: url('burger-bars-blank.png') center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin-left: 60%;
+    margin-top: 0.6em;
+}
+
+.toggle-btn.clicked {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1280px) {
+    header {
+        height: 4em;
+    }
+
+    header h1 {
+        font-size: 2em;
+    }
+
+    .header-logo {
+        height: 4em;
+        width: 4em;
+    }
+
+    .header-menu-container li{
+        font-size: 12px;
+    }
+
+    .header-menu-container a {
+        padding: 1.1em 0.8em 1.1em 0.8em;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    header {
+        position: static;
+        background-color: rgba(43, 52, 54, 0.9);
+    }
+
+    #hidden-nav {
+        text-align: center;
+        font-size: 1.6em;
+        background-color: rgba(43, 52, 54, 0.9);
+        z-index: 10;
+    }
+
+    #hidden-nav li a {
+        padding: 0.3em 25%;
+    }
+
+    #hidden-nav ul li {
+        list-style: none;
+        text-decoration: none;
+        padding-top: 0.4em;
+    }
+
+    #hidden-nav ul li:last-child {
+        padding-bottom: 0.4em;
+    }
+
+    #hidden-nav ul li ul {
+        background-color: rgba(32, 39, 41,0.9);
+    }
+
+    #hidden-nav ul li ul li {
+        list-style: none;
+        text-decoration: none;
+        margin-left: 4%;
+    }
+
+    #hidden-nav ul li ul li ul li {
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .header-menu-container {
+        display: none;
+    }
+
+    .toggle-btn {
+        display: block;
+    }
+}
+@media screen and (max-width: 550px) {
+    .toggle-btn {
+        margin-left: 58%;
+        margin-right: 2%;
+    }
+}

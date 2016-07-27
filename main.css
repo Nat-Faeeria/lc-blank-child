@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.my-slider {
+    max-width: 100% !important;
+    height: 600px !important;
+    max-height: 600px !important;
+    overflow: hidden !important;
+}
+
+.slider-phone {
+    display: none;
+}
+
+.soliloquy-image {
+    box-shadow: 10px 0px 50px 10px #000000 !important;
+}
+
+.our-actions-section a, .our-actions-section a:visited,
+.take-action-section a, .take-action-section a:visited,
+.latest-news-section a, .latest-news-section a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.take-action-section .elementor-image-box-img img {
+    border-radius: 50%;
+}
+
+.take-action-section .elementor-image-box-content {
+    max-width: 60%;
+}
+
+.element-shadow {
+    box-shadow: 2px 4px 10px 3px rgba(90, 90, 90, 0.12);
+    padding: 20px 5px 0px 5px;
+    height: 100%;
+    background: #ffffff;
+}
+
+.elementor-image-box-content {
+    text-align: justify;
+}
+
+#sc-carousel-slider .item img {
+    height: 200px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 767px){
+    .elementor-image-box-content {
+        text-align: center !important;
+        max-width: 60%;
+        margin-left: 20%;
+    }
+
+    .element-shadow {
+        box-shadow: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .soliloquy-image {
+        box-shadow: none !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .soliloquy-image {
+        box-shadow: none !important;
+    }
+
+    .slider-main {
+        display: none;
+    }
+
+    .slider-phone {
+        display: block;
+    }
+
+    #sc-carousel-slider .item img {
+        height: 300px;
+    }
+
+    .elementor-image-box-img {
+        width: 80% !important;
+        margin-left: 10% !important;
+    }
+
+    .elementor-image-box-content {
+        text-align: center !important;
+        max-width: 100% !important;
+        margin-left: 0;
+    }
+}

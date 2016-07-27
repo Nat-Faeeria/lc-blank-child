@@ -1,0 +1,258 @@
+.elementor-tabs .elementor-tabs-wrapper .elementor-tab-title {display: table-cell !important;}
+
+.img-donation-tab {
+    background: url("http://www.nathanael-gimenez.com:8080/wp-content/uploads/2016/07/need-help.png") no-repeat scroll center;
+    background-size: cover;
+    width: 30%;
+    max-width: 292px;
+    min-height: 235px;
+    max-height: 235px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.text-donation-tab {
+    display: inline-block;
+    width: 65%;
+    margin-left: 3%;
+}
+
+.tab-inner-title {
+    color: #64BF9E;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+#campaign-bar {
+    width: 99%;
+    height: 40px;
+    margin: 15px 1%;
+}
+
+#campaign-bar .filled-bar, #campaign-bar .unfilled-bar {
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#campaign-bar .filled-bar {
+    width: 74%;
+    background-color: #EC601C;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#campaign-bar .unfilled-bar {
+    width: 24%;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#campaign-bar .filled-bar p, #campaign-bar .unfilled-bar p {
+    margin-top: 0.6em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.modal-header {
+    text-align: center;
+}
+
+.modal-title {
+    font-size: 4em;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    margin-left: 50px;
+}
+
+.modal-header h2 {
+    font-size: 2.5em;
+    font-weight: 300;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+
+.modal-header .close {
+    margin-top: 20px;
+    margin-right: 1em;
+}
+
+button.close {
+    padding: 0px;
+    cursor: pointer;
+    background: transparent none repeat scroll 0% 0%;
+    border: 0px none;
+    height: 0.8em !important;
+    width: 0.8em !important;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    color: black !important;
+    text-shadow: 0px 1px 0px #FFF;
+}
+
+.modal-body {
+    margin-top: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.donation-btn, .donation-back-btn {
+    background-color: #39F;
+}
+
+.donation-btn {
+    flex: 1 12%;
+    margin: 5px;
+}
+
+a.donation-btn, a.donation-btn:visited {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.modal-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.donation-back-btn, a.donation-back-btn:visited {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.donation-btn-container .elementor-widget-container {
+    width: 100%;
+}
+
+.donation-btn.out {
+    background-color: #ed621c;
+    border-radius: 5px;
+}
+
+.donation-btn-container-bottom {
+    margin-left: 35%;
+}
+
+@media screen and (max-width: 965px) and (min-width: 768px){
+    .img-donation-tab, .text-donation-tab {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .img-donation-tab {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .donation-btn-container-bottom {
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .donation-btn-container {
+        margin-left: 40%;
+    }
+
+    .donation-btn-container-bottom {
+        margin-left: 44%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .donation-title-1 h1 {
+        font-size: 2em !important;
+    }
+
+    .donation-title-1 .elementor-widget-container,
+    .donation-title-2 .elementor-widget-container{
+        margin: 0 10px 0 !important;
+    }
+
+    .donation-title-2 h3 {
+        font-size: 1.6em !important;
+    }
+
+    .donation-tab .elementor-tab-content {
+        border-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 567px) {
+    .img-donation-tab, .text-donation-tab {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .img-donation-tab {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .donation-btn {
+        flex: 1 25%;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 485px) {
+    #campaign-bar .filled-bar, #campaign-bar .unfilled-bar {
+        font-size: 1em;
+    }
+
+    #campaign-bar .filled-bar p, #campaign-bar .unfilled-bar p {
+        margin-top: 1em;
+    }
+
+    .donation-btn-container {
+        margin-left: 35%;
+    }
+
+    .donation-btn-container-bottom {
+        margin-left: 38%;
+    }
+}
+
+@media screen and (max-width: 335px) {
+    .img-donation-tab {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width: 325px) {
+    #campaign-bar .filled-bar {
+        width: 70%;
+    }
+
+    #campaign-bar .unfilled-bar {
+        width: 28%
+    }
+
+}
