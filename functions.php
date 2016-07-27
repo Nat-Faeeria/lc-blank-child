@@ -40,6 +40,7 @@ function lct_load_scripts() {
 	wp_enqueue_style( 'header.css', get_template_directory_uri().'/header.css', false );
 	wp_enqueue_style( 'footer.css', get_template_directory_uri().'/footer.css', false );
 	wp_enqueue_style( 'flag-icon.css', get_template_directory_uri().'/flag-icon.css', false );
+	wp_enqueue_style( 'woocommercestyle.css', get_template_directory_uri().'/woocommercestyle.css', false );
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'main.js', get_template_directory_uri().'/main.js', false);
 	
