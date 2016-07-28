@@ -10,19 +10,20 @@
 
 .testimony-container {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .testimony-person {
-    flex: 1 29%;
+    flex: 1 30%;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-left: 1%;
 }
 
 .testimony-even .testimony-person {
@@ -35,9 +36,32 @@
 
 .testimony-person > img {
     border-radius: 50%;
+    width: 30%;
 }
 
 .testimony-container > p {
-    flex: 2 70%;
+    flex: 2 68%;
     order: 2;
+    background-color: rgba(93,93,93,0.4);
+    height: 100%;
+    border-radius: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 10px;
+}
+
+@media screen and (max-width: 520px) {
+
+    .testimonies-container {
+        flex-flow: row wrap;
+    }
+
+    .testimony-person {
+        flex: 1 100%;
+        order: 1 !important;
+    }
+
+    .testimony-container > p {
+        flex: 1 100%;
+    }
 }

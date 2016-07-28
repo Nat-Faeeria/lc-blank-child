@@ -64,3 +64,9 @@ article.post .desc h2, article.newsletter .desc h2{
     text-decoration: none;
     color: white;
 }
+
+@media screen and (max-width: 720px){
+    .posts-page {
+        margin-top: 10px;
+    }
+}

@@ -35,7 +35,7 @@ header h1:hover {
 
 
 .header-logo-container {
-    width: 31%;
+    width: 20%;
 }
 
 img.header-logo {
@@ -44,7 +44,7 @@ img.header-logo {
 }
 
 .header-menu-container {
-    width: 69%;
+    width: 80%;
     text-align: right;
 }
 
@@ -114,7 +114,7 @@ header a {
     background: url('burger-bars-blank.png') center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
-    margin-left: 60%;
+    margin-left: 74%;
     margin-top: 0.6em;
 }
 
@@ -202,7 +202,7 @@ header a {
 }
 @media screen and (max-width: 550px) {
     .toggle-btn {
-        margin-left: 58%;
+        margin-left: 70%;
         margin-right: 2%;
     }
 }
