@@ -72,6 +72,10 @@ main {
     .soliloquy-image {
         box-shadow: none !important;
     }
+
+    .mobile-no-top-margin {
+        margin-top: 10px;
+    }
 }
 
 @media screen and (max-width: 550px) {

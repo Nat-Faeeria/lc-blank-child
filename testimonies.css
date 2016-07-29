@@ -8,6 +8,11 @@
     margin-bottom: 20px;
 }
 
+.testimonies-container > a {
+    text-decoration: none;
+    color: black;
+}
+
 .testimony-container {
     display: flex;
     flex-flow: row wrap;
@@ -39,7 +44,7 @@
     width: 30%;
 }
 
-.testimony-container > p {
+.testimony-container > .testimony-text {
     flex: 2 68%;
     order: 2;
     background-color: rgba(93,93,93,0.4);
@@ -48,6 +53,11 @@
     margin-left: 1%;
     margin-right: 1%;
     padding: 10px;
+    text-align: left;
+}
+
+.max-width {
+    width: 100%;
 }
 
 @media screen and (max-width: 520px) {
@@ -61,7 +71,7 @@
         order: 1 !important;
     }
 
-    .testimony-container > p {
+    .testimony-container > .testimony-text {
         flex: 1 100%;
     }
 }

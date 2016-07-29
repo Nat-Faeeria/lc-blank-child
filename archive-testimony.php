@@ -9,12 +9,12 @@
             if ( have_posts() ) :
                 while ( have_posts() ) : the_post();
                     if ($i%2==0) :
-                        echo "<article class='testimony-even testimony-container'>";
+                        echo "<a class='max-width' href='"; echo the_permalink(); echo "'><article class='testimony-even testimony-container'>";
                     else :
-                        echo "<article class='testimony-odd testimony-container'>";
+                        echo "<a class='max-width' href='"; echo the_permalink(); echo "'><article class='testimony-odd testimony-container'>";
                     endif;
                     get_template_part( 'content', "testimony" );
-                    echo "</article>";
+                    echo "</article></a>";
                     $i++;
                 endwhile;
             else :
