@@ -188,5 +188,35 @@ function myInit() {
             'has_archive' => true
         )
     );
+    register_post_type(
+        'report',
+        array(
+            'label' => __("Human Rights Reports"),
+            'labels' => array(
+                'name' => __("Human Rights Reports"),
+                'singular_name' => __("Report"),
+                'all_items' => __("All the reports"),
+                'add_new_item' => __("Add a report"),
+                'edit_item' => __("Edit the report"),
+                'new_item' => __("New report"),
+                'view_item' => __("View report"),
+                'search_items' => __("Search in the reports"),
+                'not_found' => __("No report found"),
+                'not_found_in_trash'=> __("No report in the trash")
+            ),
+            'public' => true,
+            'capability_type' => 'post',
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+                'author',
+                'custom-fields',
+                'revisions',
+                'excerpt'
+            ),
+            'has_archive' => true
+        )
+    );
 }
 add_action( 'init', 'myInit' );
