@@ -94,7 +94,8 @@ function myInit() {
                 'thumbnail',
                 'author',
                 'custom-fields',
-                'revisions'
+                'revisions',
+                'excerpt'
             ),
             'has_archive' => true
         )
@@ -153,6 +154,36 @@ function myInit() {
                 'author',
                 'custom-fields',
                 'revisions'
+            ),
+            'has_archive' => true
+        )
+    );
+    register_post_type(
+        'memoir',
+        array(
+            'label' => __("Memoirs"),
+            'labels' => array(
+                'name' => __("Memoirs"),
+                'singular_name' => __("Memoir"),
+                'all_items' => __("All the memoirs"),
+                'add_new_item' => __("Add a memoir"),
+                'edit_item' => __("Edit the memoir"),
+                'new_item' => __("New memoir"),
+                'view_item' => __("View memoir"),
+                'search_items' => __("Search in the memoirs"),
+                'not_found' => __("No memoir found"),
+                'not_found_in_trash'=> __("No memoir in the trash")
+            ),
+            'public' => true,
+            'capability_type' => 'post',
+            'supports' => array(
+                'title',
+                'editor',
+                'thumbnail',
+                'author',
+                'custom-fields',
+                'revisions',
+                'excerpt'
             ),
             'has_archive' => true
         )
