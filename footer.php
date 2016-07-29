@@ -10,7 +10,8 @@
                     <ul>
                         <li><a target="_blank" href="https://www.facebook.com/PscoreKorea" alt="Our Facebook"><i class="fa fa-facebook-official"></i></a></li>
                         <li><a target="_blank" href="https://twitter.com/pscore911" alt="Our Twitter"><i class="fa fa-twitter-square"></i></a></li>
-                        <li><a target="_blank" href="https://www.instagram.com/pscorekorea" alt="Our Twitter"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com/pscorekorea" alt="Our Instagram"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/user/PSCORE911" alt="Our Youtube Channel"><i class="fa fa-youtube"></i></a></li>
                         <li><a target="_blank" href="http://pscore.bigcartel.com" alt="Buy our products"><i class="fa fa-shopping-cart"></i></a></li>
                     </ul>
                 </div>
