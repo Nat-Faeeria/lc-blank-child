@@ -22,7 +22,8 @@
 
 article.post,
 article.newsletter,
-article.memoir {
+article.memoir,
+article.report {
     margin: 10px;
     width: 200px;
     height: 200px;
@@ -34,7 +35,8 @@ article.memoir {
 
 article.post .desc,
 article.newsletter .desc,
-article.memoir .desc {
+article.memoir .desc,
+article.report .desc {
     opacity: 0;
     align-self: flex-end;
     background-color: rgba(36, 36, 36, 0.8);
@@ -46,23 +48,30 @@ article.memoir .desc {
 
 article.post:hover .desc, article.post:focus .desc,
 article.newsletter:hover .desc, article.newsletter:focus .desc,
-article.memoir:hover .desc, article.memoir:focus .desc {
+article.memoir:hover .desc, article.memoir:focus .desc,
+article.report:hover .desc, article.report:focus .desc {
     opacity: 1;
     transition: opacity 0.5s ease-out 0s;
 }
 
 article.post .desc > *,
 article.newsletter .desc > *,
-article.memoir .desc > * {
+article.memoir .desc > *,
+article.report .desc > * {
     display: block;
     margin-bottom: 2%;
 }
 
 article.post .desc h2,
 article.newsletter .desc,
-article.memoir .desc h2 {
+article.memoir .desc h2,
+article.report .desc h2 {
     font-size: 1.4em;
     font-weight: 600;
+}
+
+article.report .desc h2 {
+    font-size: 1.2em;
 }
 
 .time {

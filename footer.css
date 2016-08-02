@@ -10,6 +10,7 @@ footer {
     align-content: center;
     text-align: justify;
     align-self: flex-end;
+    font-size: 1.3em;
 }
 
 footer h4 {
@@ -85,7 +86,7 @@ footer li i {
 }
 
 .footer-recent-entry a, .footer-recent-entry a:visited {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #0387e2;
     margin-bottom: 10px;
 }
@@ -111,12 +112,12 @@ footer li i {
 
 .footer-bottom-left {
     flex: 1 30%;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-bottom: 20px;
 }
 
 .footer-bottom-left i {
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
 
 .half-block ul {
@@ -128,7 +129,7 @@ footer li i {
 }
 
 .half-block i {
-    font-size: 3em;
+    font-size: 4em;
 }
 
 @media screen and (max-width: 720px) {
@@ -141,7 +142,7 @@ footer li i {
 
     footer {
         flex-direction: column;
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
 
     .footer-column-1 .half-block{
