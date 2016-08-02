@@ -1,6 +1,6 @@
 <?php
 
-// Delcare Header/Footer compatibility
+// Declare Header/Footer compatibility
 define( 'DS_LIVE_COMPOSER_HF', true );
 define( 'DS_LIVE_COMPOSER_HF_AUTO', false );
 
@@ -182,8 +182,7 @@ function myInit() {
                 'thumbnail',
                 'author',
                 'custom-fields',
-                'revisions',
-                'excerpt'
+                'revisions'
             ),
             'has_archive' => true
         )
@@ -191,12 +190,12 @@ function myInit() {
     register_post_type(
         'report',
         array(
-            'label' => __("Human Rights Reports"),
+            'label' => __("Reports"),
             'labels' => array(
-                'name' => __("Human Rights Reports"),
+                'name' => __("Reports"),
                 'singular_name' => __("Report"),
                 'all_items' => __("All the reports"),
-                'add_new_item' => __("Add a report"),
+                'add_new_item' => __("Add an report"),
                 'edit_item' => __("Edit the report"),
                 'new_item' => __("New report"),
                 'view_item' => __("View report"),
@@ -212,8 +211,7 @@ function myInit() {
                 'thumbnail',
                 'author',
                 'custom-fields',
-                'revisions',
-                'excerpt'
+                'revisions'
             ),
             'has_archive' => true
         )
