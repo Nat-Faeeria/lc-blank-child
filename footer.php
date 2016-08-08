@@ -42,8 +42,8 @@
                     <div class="footer-contact">
                         <ul class="footer-bottom-left">
                             <li><i class="fa fa-home"></i><?php _e("452 Yangcheon-ro, Gangseo-gu, Seoul, Republic of Korea"); ?></li>
-                            <li><i class="fa fa-envelope"></i>pscore@pscore.org</li>
-                            <li><i class="fa fa-phone"></i>+82-2-6497-5035(5770)</li>
+                            <li><a href="/contact"><i class="fa fa-envelope"></i>Contact us !</a></li>
+                            <li><a href="tel:+82-2-6497-5035"><i class="fa fa-phone"></i>+82-2-6497-5035(5770)</a></li>
                         </ul>
                         <iframe class="footer-map" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=452+Yangcheon-ro%2C+Gangseo-gu%2C+Seoul&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" frameborder="0"></iframe>
                     </div>

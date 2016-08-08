@@ -116,6 +116,14 @@ footer li i {
     margin-bottom: 20px;
 }
 
+.footer-bottom-left li {
+    margin-bottom: 10px;
+}
+
+.footer-bottom-left a {
+    text-decoration: underline;
+}
+
 .footer-bottom-left i {
     font-size: 1.4em;
 }
