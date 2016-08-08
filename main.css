@@ -30,10 +30,6 @@ main {
     color: inherit;
 }
 
-.take-action-section .elementor-image-box-img img {
-    border-radius: 50%;
-}
-
 .take-action-section .elementor-image-box-content {
     max-width: 60%;
 }
@@ -54,8 +50,6 @@ main {
     width: 100%;
 }
 
-
-
 @media screen and (max-width: 767px){
     .elementor-image-box-content {
         text-align: center !important;
@@ -68,13 +62,19 @@ main {
     }
 }
 
+@media screen and (max-width: 767px) and (min-width: 720px) {
+    .main-title {
+        margin-top: 60px;
+    }
+}
+
 @media screen and (max-width: 720px) {
     .soliloquy-image {
         box-shadow: none !important;
     }
 
     .mobile-no-top-margin {
-        margin-top: 10px;
+        margin-top: 10px !important;
     }
 }
 
